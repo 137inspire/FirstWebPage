@@ -9,7 +9,11 @@ body{
     padding: 5px;
     font-size: 2rem;
     background-color: aqua;
-
+    cursor: not-allowed;
+}
+form{
+    translate: 10px 200px;
+    border: 3px #1d024b solid;
 }
 
 .back{
@@ -61,12 +65,12 @@ h1{ translate: 200px 1px;
     position: relative;
     display: inline-block; */
 }
-.adminLogo
+.homeLogo
 img
 {
     /* background-image: url(/src/image/admin.jpg); */
     
-    translate: 300px 29px;
+    translate: 330px 729px;
     width: 80px;
     height: 80px;
     display:  inline-block;
