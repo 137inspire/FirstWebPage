@@ -10,11 +10,15 @@
     <title>Sign in</title>
 </head>
 <script>
-		addEventListener("click", (event) => {});
-
+		addEventListener("submit", (event) => {});
 onclick = (event) => {
 window.location.href="https://main--akweb.netlify.app/src/pages/user/admin.html";
+
+addEventListener("cancel", (event1) => {});
 alert("I am an alert box!");
+onclick(event1){
+    alert(" please enter the crentials to login")
+}
 }
 </script>
 <body>
@@ -40,13 +44,11 @@ alert("I am an alert box!");
             
             <br>
             <tr>
-                <!-- //<label for="liBSubmit">Submit </label> --><a href="/src/pages/user/admin.html">login
                 <input type="submit" value="Log In" name="liBsubmit" >
-                </a>
             </tr>
             <tr>
                 <!-- <label for="liBCancel">Cancel </label> -->
-                <input type="submit" value="Cancel" Name="liBcancel" >
+                <input type="cancel" value="Cancel" Name="liBcancel" >
             </tr>
            
         </form>
