@@ -99,9 +99,10 @@ h2 {
 
 }
 form{
-    margin: 10px;
-    /* padding: auto; */
+    margin: 0;
+    padding: 0;
     border-radius: 50%;
+    color: #91bbf7;
     width: 400px;
     height: 300px;
     left: 20px;
