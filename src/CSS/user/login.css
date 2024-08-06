@@ -98,6 +98,14 @@ h2 {
     border-radius: 2rem 2rem 0 0;
 
 }
+form{
+    width: 350px;
+    left: 20px;
+    top: 300px;
+    position: relative;
+    /* translate: 20px 300px; */
+    border: 3px #1d024b solid;
+}
 li {
     
     width: 390px;
