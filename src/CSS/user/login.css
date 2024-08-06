@@ -110,7 +110,7 @@ form{
     /* border-radius: 30%; */
     position: relative;
     /* translate: 20px 300px; */
-    border: 3px #1d024b solid;
+    border: 3px #1d024b solid double;
 }
 li {
     
