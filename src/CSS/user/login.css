@@ -100,7 +100,7 @@ h2 {
 }
 form{
     margin: 10px;
-    padding: auto;
+    /* padding: auto; */
     border-radius: 50%;
     width: 400px;
     height: 300px;
