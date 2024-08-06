@@ -12,7 +12,11 @@ body{
     cursor: not-allowed;
 }
 form{
-    translate: 10px 200px;
+    width: 350px;
+    left: 20px;
+    top: 300px;
+    position: relative;
+    /* translate: 20px 300px; */
     border: 3px #1d024b solid;
 }
 
@@ -70,7 +74,11 @@ img
 {
     /* background-image: url(/src/image/admin.jpg); */
     
-    translate: 330px 729px;
+    /* translate: 330px 429px; */
+    /* background-position-x: 500px;
+    background-position-y: 500px; */
+left: 300px;
+top: 529px;
     width: 80px;
     height: 80px;
     display:  inline-block;
