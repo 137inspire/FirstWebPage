@@ -10,11 +10,12 @@
     <title>Sign in</title>
 </head>
 <script>
-// function myfunction(){
-   
-// //    <a >
+		addEventListener("click", (event) => {});
 
-// }
+onclick = (event) => {
+window.location.href="https://main--akweb.netlify.app/src/pages/user/admin.html";
+alert("I am an alert box!");
+}
 </script>
 <body>
     <div class="back">
@@ -29,23 +30,23 @@
         </section>
         <form> 
             <label for="liLUserName">UserName   . </label>
-            <input type="text" name="BUserName" >
+            <input type="text" name="liTUserName" >
             </tr>
             <br>
             <tr>
                 <label for="lilPassword">Password    .</label>
-                <input type="password" name="BPassword">
+                <input type="password" name="LiTPassword">
             </tr>
             
             <br>
             <tr>
                 <!-- //<label for="liBSubmit">Submit </label> --><a href="/src/pages/user/admin.html">login
-                <input type="submit" value="Log In"  >
+                <input type="submit" value="Log In" name="liBsubmit" >
                 </a>
             </tr>
             <tr>
                 <!-- <label for="liBCancel">Cancel </label> -->
-                <input type="submit" value="Cancel" >
+                <input type="submit" value="Cancel" Name="liBcancel" >
             </tr>
            
         </form>
