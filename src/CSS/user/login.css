@@ -112,6 +112,9 @@ form{
     /* translate: 20px 300px; */
     border: 3px #1d024b solid double;
 }
+a{
+    display: inline;
+}
 li {
     
     width: 390px;
