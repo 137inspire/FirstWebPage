@@ -9,7 +9,7 @@
 
     <title>Sign in</title>
 </head>
-<script>
+<!-- <script>
 		addEventListener("liCsub", (event) => {});
 onclick=(addEventListener) => {
     // alert("wrong!!!");
@@ -21,7 +21,7 @@ window.location.href="https://main--akweb.netlify.app/src/pages/user/admin.html"
 //     alert(" please enter the crentials to login")
 }
 
-</script>
+</script> -->
 <body>
     <div class="back">
         <section class="titleLogo">
@@ -45,10 +45,13 @@ window.location.href="https://main--akweb.netlify.app/src/pages/user/admin.html"
             
             <br>
             <tr>
-                <input type="submit" value="Log In" name="liBsubmit"  class="liCsub">
+                <!-- <input type="submit" value="Log In" name="liBsubmit"  class="liCsub"> -->
+                <button onchange=window.location.href="https://main--akweb.netlify.app/src/pages/user/admin.html">
+                    Log In
+                </button>
             </tr>
             <tr>
-                <button onchange="window.location.reload">
+                <button onchange="window.location.reload()">
                     Cancel
                 </button>
                 <!-- <label for="liBCancel">Cancel </label> -->
