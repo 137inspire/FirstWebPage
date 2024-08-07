@@ -112,6 +112,9 @@ form{
     /* translate: 20px 300px; */
     border: 3px #1d024b solid double;
 }
+group{
+    border: double #1d024b solid;
+}
 a{
     display: inline;
 }
